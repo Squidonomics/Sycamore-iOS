@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD093572B43656600DAB171 /* SycamoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093562B43656600DAB171 /* SycamoreApp.swift */; };
+		BCD093592B43656600DAB171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093582B43656600DAB171 /* ContentView.swift */; };
+		BCD0935B2B43656600DAB171 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0935A2B43656600DAB171 /* Item.swift */; };
+		BCD0935D2B43656F00DAB171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD0935C2B43656F00DAB171 /* Assets.xcassets */; };
+		BCD093612B43656F00DAB171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD093602B43656F00DAB171 /* Preview Assets.xcassets */; };
+		BCD0936B2B43656F00DAB171 /* SycamoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0936A2B43656F00DAB171 /* SycamoreTests.swift */; };
+		BCD093752B43656F00DAB171 /* SycamoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093742B43656F00DAB171 /* SycamoreUITests.swift */; };
+		BCD093772B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093762B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD093672B43656F00DAB171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD0934B2B43656600DAB171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD093522B43656600DAB171;
+			remoteInfo = Sycamore;
+		};
+		BCD093712B43656F00DAB171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD0934B2B43656600DAB171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD093522B43656600DAB171;
+			remoteInfo = Sycamore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCD093532B43656600DAB171 /* Sycamore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sycamore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD093562B43656600DAB171 /* SycamoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SycamoreApp.swift; sourceTree = "<group>"; };
+		BCD093582B43656600DAB171 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCD0935A2B43656600DAB171 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BCD0935C2B43656F00DAB171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD0935E2B43656F00DAB171 /* Sycamore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sycamore.entitlements; sourceTree = "<group>"; };
+		BCD093602B43656F00DAB171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCD093662B43656F00DAB171 /* SycamoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SycamoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD0936A2B43656F00DAB171 /* SycamoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SycamoreTests.swift; sourceTree = "<group>"; };
+		BCD093702B43656F00DAB171 /* SycamoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SycamoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD093742B43656F00DAB171 /* SycamoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SycamoreUITests.swift; sourceTree = "<group>"; };
+		BCD093762B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SycamoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD093502B43656600DAB171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD093632B43656F00DAB171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0936D2B43656F00DAB171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD0934A2B43656600DAB171 = {
+			isa = PBXGroup;
+			children = (
+				BCD093552B43656600DAB171 /* Sycamore */,
+				BCD093692B43656F00DAB171 /* SycamoreTests */,
+				BCD093732B43656F00DAB171 /* SycamoreUITests */,
+				BCD093542B43656600DAB171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD093542B43656600DAB171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD093532B43656600DAB171 /* Sycamore.app */,
+				BCD093662B43656F00DAB171 /* SycamoreTests.xctest */,
+				BCD093702B43656F00DAB171 /* SycamoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD093552B43656600DAB171 /* Sycamore */ = {
+			isa = PBXGroup;
+			children = (
+				BCD093562B43656600DAB171 /* SycamoreApp.swift */,
+				BCD093582B43656600DAB171 /* ContentView.swift */,
+				BCD0935A2B43656600DAB171 /* Item.swift */,
+				BCD0935C2B43656F00DAB171 /* Assets.xcassets */,
+				BCD0935E2B43656F00DAB171 /* Sycamore.entitlements */,
+				BCD0935F2B43656F00DAB171 /* Preview Content */,
+			);
+			path = Sycamore;
+			sourceTree = "<group>";
+		};
+		BCD0935F2B43656F00DAB171 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCD093602B43656F00DAB171 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCD093692B43656F00DAB171 /* SycamoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD0936A2B43656F00DAB171 /* SycamoreTests.swift */,
+			);
+			path = SycamoreTests;
+			sourceTree = "<group>";
+		};
+		BCD093732B43656F00DAB171 /* SycamoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD093742B43656F00DAB171 /* SycamoreUITests.swift */,
+				BCD093762B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift */,
+			);
+			path = SycamoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD093522B43656600DAB171 /* Sycamore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD0937A2B43656F00DAB171 /* Build configuration list for PBXNativeTarget "Sycamore" */;
+			buildPhases = (
+				BCD0934F2B43656600DAB171 /* Sources */,
+				BCD093502B43656600DAB171 /* Frameworks */,
+				BCD093512B43656600DAB171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sycamore;
+			productName = Sycamore;
+			productReference = BCD093532B43656600DAB171 /* Sycamore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD093652B43656F00DAB171 /* SycamoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD0937D2B43656F00DAB171 /* Build configuration list for PBXNativeTarget "SycamoreTests" */;
+			buildPhases = (
+				BCD093622B43656F00DAB171 /* Sources */,
+				BCD093632B43656F00DAB171 /* Frameworks */,
+				BCD093642B43656F00DAB171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD093682B43656F00DAB171 /* PBXTargetDependency */,
+			);
+			name = SycamoreTests;
+			productName = SycamoreTests;
+			productReference = BCD093662B43656F00DAB171 /* SycamoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD0936F2B43656F00DAB171 /* SycamoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD093802B43656F00DAB171 /* Build configuration list for PBXNativeTarget "SycamoreUITests" */;
+			buildPhases = (
+				BCD0936C2B43656F00DAB171 /* Sources */,
+				BCD0936D2B43656F00DAB171 /* Frameworks */,
+				BCD0936E2B43656F00DAB171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD093722B43656F00DAB171 /* PBXTargetDependency */,
+			);
+			name = SycamoreUITests;
+			productName = SycamoreUITests;
+			productReference = BCD093702B43656F00DAB171 /* SycamoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD0934B2B43656600DAB171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BCD093522B43656600DAB171 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					BCD093652B43656F00DAB171 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BCD093522B43656600DAB171;
+					};
+					BCD0936F2B43656F00DAB171 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BCD093522B43656600DAB171;
+					};
+				};
+			};
+			buildConfigurationList = BCD0934E2B43656600DAB171 /* Build configuration list for PBXProject "Sycamore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD0934A2B43656600DAB171;
+			productRefGroup = BCD093542B43656600DAB171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD093522B43656600DAB171 /* Sycamore */,
+				BCD093652B43656F00DAB171 /* SycamoreTests */,
+				BCD0936F2B43656F00DAB171 /* SycamoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD093512B43656600DAB171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD093612B43656F00DAB171 /* Preview Assets.xcassets in Resources */,
+				BCD0935D2B43656F00DAB171 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD093642B43656F00DAB171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0936E2B43656F00DAB171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD0934F2B43656600DAB171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD093592B43656600DAB171 /* ContentView.swift in Sources */,
+				BCD0935B2B43656600DAB171 /* Item.swift in Sources */,
+				BCD093572B43656600DAB171 /* SycamoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD093622B43656F00DAB171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD0936B2B43656F00DAB171 /* SycamoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD0936C2B43656F00DAB171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD093772B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift in Sources */,
+				BCD093752B43656F00DAB171 /* SycamoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD093682B43656F00DAB171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD093522B43656600DAB171 /* Sycamore */;
+			targetProxy = BCD093672B43656F00DAB171 /* PBXContainerItemProxy */;
+		};
+		BCD093722B43656F00DAB171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD093522B43656600DAB171 /* Sycamore */;
+			targetProxy = BCD093712B43656F00DAB171 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCD093782B43656F00DAB171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD093792B43656F00DAB171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BCD0937B2B43656F00DAB171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sycamore/Sycamore.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sycamore/Preview Content\"";
+				DEVELOPMENT_TEAM = W369BZ7975;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = relsto.Sycamore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD0937C2B43656F00DAB171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sycamore/Sycamore.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sycamore/Preview Content\"";
+				DEVELOPMENT_TEAM = W369BZ7975;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = relsto.Sycamore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCD0937E2B43656F00DAB171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W369BZ7975;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = relsto.SycamoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sycamore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sycamore";
+			};
+			name = Debug;
+		};
+		BCD0937F2B43656F00DAB171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W369BZ7975;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = relsto.SycamoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sycamore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sycamore";
+			};
+			name = Release;
+		};
+		BCD093812B43656F00DAB171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W369BZ7975;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = relsto.SycamoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sycamore;
+			};
+			name = Debug;
+		};
+		BCD093822B43656F00DAB171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W369BZ7975;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = relsto.SycamoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sycamore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD0934E2B43656600DAB171 /* Build configuration list for PBXProject "Sycamore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD093782B43656F00DAB171 /* Debug */,
+				BCD093792B43656F00DAB171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD0937A2B43656F00DAB171 /* Build configuration list for PBXNativeTarget "Sycamore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD0937B2B43656F00DAB171 /* Debug */,
+				BCD0937C2B43656F00DAB171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD0937D2B43656F00DAB171 /* Build configuration list for PBXNativeTarget "SycamoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD0937E2B43656F00DAB171 /* Debug */,
+				BCD0937F2B43656F00DAB171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD093802B43656F00DAB171 /* Build configuration list for PBXNativeTarget "SycamoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD093812B43656F00DAB171 /* Debug */,
+				BCD093822B43656F00DAB171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD0934B2B43656600DAB171 /* Project object */;
+}
