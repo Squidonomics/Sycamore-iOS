@@ -15,6 +15,8 @@
 		BCD0936B2B43656F00DAB171 /* SycamoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0936A2B43656F00DAB171 /* SycamoreTests.swift */; };
 		BCD093752B43656F00DAB171 /* SycamoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093742B43656F00DAB171 /* SycamoreUITests.swift */; };
 		BCD093772B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093762B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift */; };
+		BCD093842B43695500DAB171 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093832B43695500DAB171 /* AlarmView.swift */; };
+		BCD093872B4369B600DAB171 /* AlarmComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093862B4369B600DAB171 /* AlarmComponents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BCD093702B43656F00DAB171 /* SycamoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SycamoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD093742B43656F00DAB171 /* SycamoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SycamoreUITests.swift; sourceTree = "<group>"; };
 		BCD093762B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SycamoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCD093832B43695500DAB171 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		BCD093862B4369B600DAB171 /* AlarmComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmComponents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				BCD093562B43656600DAB171 /* SycamoreApp.swift */,
 				BCD093582B43656600DAB171 /* ContentView.swift */,
+				BCD093832B43695500DAB171 /* AlarmView.swift */,
+				BCD093852B43698500DAB171 /* Components */,
 				BCD0935A2B43656600DAB171 /* Item.swift */,
 				BCD0935C2B43656F00DAB171 /* Assets.xcassets */,
 				BCD0935E2B43656F00DAB171 /* Sycamore.entitlements */,
@@ -130,6 +136,14 @@
 				BCD093762B43656F00DAB171 /* SycamoreUITestsLaunchTests.swift */,
 			);
 			path = SycamoreUITests;
+			sourceTree = "<group>";
+		};
+		BCD093852B43698500DAB171 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BCD093862B4369B600DAB171 /* AlarmComponents.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +278,8 @@
 			files = (
 				BCD093592B43656600DAB171 /* ContentView.swift in Sources */,
 				BCD0935B2B43656600DAB171 /* Item.swift in Sources */,
+				BCD093842B43695500DAB171 /* AlarmView.swift in Sources */,
+				BCD093872B4369B600DAB171 /* AlarmComponents.swift in Sources */,
 				BCD093572B43656600DAB171 /* SycamoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
