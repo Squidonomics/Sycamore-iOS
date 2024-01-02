@@ -12,7 +12,7 @@ import SwiftData
 struct SycamoreApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            AlarmModel.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct SycamoreApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AlarmView()
         }
         .modelContainer(sharedModelContainer)
     }

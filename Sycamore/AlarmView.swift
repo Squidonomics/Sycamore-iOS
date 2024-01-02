@@ -6,10 +6,28 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct AlarmView: View {
+    @Query(sort: \AlarmModel.time) var alarms: [AlarmModel]
+    @Environment(\.modelContext) private var modelContext
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: addAlarm) {
+            Label("Add Item", systemImage: "plus")
+        }
+        List(alarms) { alarm in
+            AlarmListItem(alarmIsOn: alarm.isEnabled, setAlarmTime: alarm.time.description)
+        }
+        .modelContainer(for: AlarmModel.self)
+    }
+    
+    private func addAlarm() {
+        withAnimation {
+            let newAlarm = AlarmModel(time: Date.now, days: [Date.now], isEnabled: true)
+            modelContext.insert(newAlarm)
+            modelContext.autosaveEnabled = true
+        }
     }
 }
+
 
