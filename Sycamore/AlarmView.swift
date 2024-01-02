@@ -13,12 +13,11 @@ struct AlarmView: View {
     @Environment(\.modelContext) private var modelContext
     var body: some View {
         Button(action: addAlarm) {
-            Label("Add Item", systemImage: "plus")
+            Label("Add Alarm", systemImage: "plus")
         }
         List(alarms) { alarm in
             AlarmListItem(alarmIsOn: alarm.isEnabled, setAlarmTime: alarm.time.description)
         }
-        .modelContainer(for: AlarmModel.self)
     }
     
     private func addAlarm() {
@@ -29,5 +28,4 @@ struct AlarmView: View {
         }
     }
 }
-
 
