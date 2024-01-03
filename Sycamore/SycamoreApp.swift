@@ -10,23 +10,20 @@ import SwiftData
 
 @main
 struct SycamoreApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            AlarmModel.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+    let modelContainer: ModelContainer
 
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
+    init() {
+            do {
+                modelContainer = try ModelContainer(for: AlarmModel.self)
+            } catch {
+                fatalError("Could not initialize ModelContainer")
+            }
         }
-    }()
 
     var body: some Scene {
         WindowGroup {
             AlarmView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(modelContainer)
     }
 }
