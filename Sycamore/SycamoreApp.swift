@@ -11,7 +11,6 @@ import SwiftData
 @main
 struct SycamoreApp: App {
     let modelContainer: ModelContainer
-
     init() {
             do {
                 modelContainer = try ModelContainer(for: AlarmModel.self)
@@ -19,7 +18,6 @@ struct SycamoreApp: App {
                 fatalError("Could not initialize ModelContainer")
             }
         }
-
     var body: some Scene {
         WindowGroup {
             AlarmView()

@@ -13,7 +13,7 @@ struct AlarmView: View {
     var body: some View {
         AlarmForm()
         List(alarms) { alarm in
-            AlarmListItem(alarmIsOn: alarm.isEnabled, setAlarmTime: alarm.time)
+            AlarmListItem(alarmIsOn: alarm.isEnabled, setAlarmTime: alarm.time, daysToSound: alarm.days)
         }
     }
 }
