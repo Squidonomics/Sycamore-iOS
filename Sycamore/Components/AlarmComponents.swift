@@ -42,11 +42,18 @@ struct AlarmForm: View {
     @Query(sort: \AlarmModel.time) var alarms: [AlarmModel]
     @Environment(\.modelContext) private var modelContext
     @State var selectedDay: [Days] = []
+    @State var timeZone: String = ""
     var body: some View {
         Form {
             DatePicker("Set Alarm Time",selection: $selectedTime, displayedComponents: .hourAndMinute)
             DayOfTheWeek(selectedDays: $selectedDay)
-            Button(action: {addAlarm(); print(selectedDay)}) {
+            Picker("Time zone", selection: $timeZone) {
+                Text("Pacific Standard Time")
+                Text("Eastern Standard Time")
+                Text("Central Standard Time")
+                Text("Mountain Standard Time")
+            }
+            Button(action: {addAlarm(); sendAlarmNotification(timeToSend: selectedTime, dayToSend: 7, timeZone: "Pacific Standard Time")}) {
                 Text("Add Alarm")
             }
         }

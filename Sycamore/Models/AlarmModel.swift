@@ -21,6 +21,6 @@ class AlarmModel {
     }
 }
 
-enum Days: String, CaseIterable, Codable {
+public enum Days: String, CaseIterable, Codable {
     case Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
 }
