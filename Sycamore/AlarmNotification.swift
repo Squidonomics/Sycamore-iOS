@@ -19,6 +19,7 @@ public func sendAlarmNotification(timeToSend: Date, dayToSend: String?, timeZone
     let content = UNMutableNotificationContent()
     content.title = "Alarm"
     content.body = "Your alarm for \(dateFormatter.string(from: timeToSend))"
+    content.sound = UNNotificationSound.defaultRingtone
     
     var dateComponents = DateComponents()
     dateComponents.calendar = Calendar.current

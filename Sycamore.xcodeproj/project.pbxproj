@@ -10,8 +10,6 @@
 		BC224EE52B479AA2004AAE1B /* AlarmNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC224EE42B479AA2004AAE1B /* AlarmNotification.swift */; };
 		BC3395AF2B4B4DF300EF80AD /* AlarmColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3395AE2B4B4DF300EF80AD /* AlarmColors.swift */; };
 		BCD093572B43656600DAB171 /* SycamoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093562B43656600DAB171 /* SycamoreApp.swift */; };
-		BCD093592B43656600DAB171 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD093582B43656600DAB171 /* ContentView.swift */; };
-		BCD0935B2B43656600DAB171 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0935A2B43656600DAB171 /* Item.swift */; };
 		BCD0935D2B43656F00DAB171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD0935C2B43656F00DAB171 /* Assets.xcassets */; };
 		BCD093612B43656F00DAB171 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD093602B43656F00DAB171 /* Preview Assets.xcassets */; };
 		BCD0936B2B43656F00DAB171 /* SycamoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD0936A2B43656F00DAB171 /* SycamoreTests.swift */; };
@@ -44,8 +42,6 @@
 		BC3395AE2B4B4DF300EF80AD /* AlarmColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmColors.swift; sourceTree = "<group>"; };
 		BCD093532B43656600DAB171 /* Sycamore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sycamore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD093562B43656600DAB171 /* SycamoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SycamoreApp.swift; sourceTree = "<group>"; };
-		BCD093582B43656600DAB171 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BCD0935A2B43656600DAB171 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BCD0935C2B43656F00DAB171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCD0935E2B43656F00DAB171 /* Sycamore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sycamore.entitlements; sourceTree = "<group>"; };
 		BCD093602B43656F00DAB171 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -108,10 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				BCD093562B43656600DAB171 /* SycamoreApp.swift */,
-				BCD093582B43656600DAB171 /* ContentView.swift */,
 				BCD093832B43695500DAB171 /* AlarmView.swift */,
 				BCD093852B43698500DAB171 /* Components */,
-				BCD0935A2B43656600DAB171 /* Item.swift */,
 				BC224EE42B479AA2004AAE1B /* AlarmNotification.swift */,
 				BCD093892B4381B700DAB171 /* Models */,
 				BCD0935C2B43656F00DAB171 /* Assets.xcassets */,
@@ -293,9 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCD093592B43656600DAB171 /* ContentView.swift in Sources */,
 				BC224EE52B479AA2004AAE1B /* AlarmNotification.swift in Sources */,
-				BCD0935B2B43656600DAB171 /* Item.swift in Sources */,
 				BC3395AF2B4B4DF300EF80AD /* AlarmColors.swift in Sources */,
 				BCD093842B43695500DAB171 /* AlarmView.swift in Sources */,
 				BCD093872B4369B600DAB171 /* AlarmComponents.swift in Sources */,
