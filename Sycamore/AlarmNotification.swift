@@ -9,7 +9,8 @@ import Foundation
 import UserNotifications
 
 
-public func sendAlarmNotification(timeToSend: Date, dayToSend: Int?, timeZone: String) {
+
+public func sendAlarmNotification(timeToSend: Date, dayToSend: String?, timeZone: String, uuid: String) {
     let dateFormatter: DateFormatter = {
             let formatter = DateFormatter()
             formatter.timeStyle = .short
@@ -48,14 +49,33 @@ public func sendAlarmNotification(timeToSend: Date, dayToSend: Int?, timeZone: S
         dateComponents.timeZone = timeZoneIndentifier
     }
     
-    dateComponents.weekday = dayToSend ?? 1
+    switch dayToSend {
+    case "Sunday":
+        dateComponents.weekday = 1
+    case "Monday":
+        dateComponents.weekday = 2
+    case "Tuesday":
+        dateComponents.weekday = 3
+    case "Wednesday":
+        dateComponents.weekday = 4
+    case "Thursday":
+        dateComponents.weekday = 5
+    case "Friday":
+        dateComponents.weekday = 6
+    case "Saturday":
+        dateComponents.weekday = 7
+    case .none:
+        print("There is no date selected")
+    case .some(_):
+        print("Some dates selected")
+    }
+    
     dateComponents.hour = hourInt
     dateComponents.minute = minuteInt
     
     let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
     
-    let uuidString = UUID().uuidString
-    let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
+    let request = UNNotificationRequest(identifier: uuid, content: content, trigger: trigger)
     let notificationCenter = UNUserNotificationCenter.current()
     notificationCenter.add(request) { (error) in
        if error != nil {
